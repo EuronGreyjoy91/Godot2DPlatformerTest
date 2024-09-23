@@ -1,0 +1,202 @@
+[gd_scene load_steps=29 format=3 uid="uid://lfk8d57mahvj"]
+
+[ext_resource type="Texture2D" uid="uid://cliicpy2eppnn" path="res://feature/apple/Apple.png" id="1_6tfcn"]
+[ext_resource type="Texture2D" uid="uid://8da7t6dys6gm" path="res://shared/sprite/Collected.png" id="1_a3lok"]
+[ext_resource type="Script" path="res://feature/apple/apple.gd" id="2_ryynr"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hqb8n"]
+atlas = ExtResource("1_a3lok")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_git35"]
+atlas = ExtResource("1_a3lok")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6tmfe"]
+atlas = ExtResource("1_a3lok")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pmfrh"]
+atlas = ExtResource("1_a3lok")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kbvjc"]
+atlas = ExtResource("1_a3lok")
+region = Rect2(128, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_piolc"]
+atlas = ExtResource("1_a3lok")
+region = Rect2(160, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gytug"]
+atlas = ExtResource("1_6tfcn")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_njcht"]
+atlas = ExtResource("1_6tfcn")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ll3ss"]
+atlas = ExtResource("1_6tfcn")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qtlgt"]
+atlas = ExtResource("1_6tfcn")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xo2l8"]
+atlas = ExtResource("1_6tfcn")
+region = Rect2(128, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1o8j8"]
+atlas = ExtResource("1_6tfcn")
+region = Rect2(160, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wwwwv"]
+atlas = ExtResource("1_6tfcn")
+region = Rect2(192, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i4llp"]
+atlas = ExtResource("1_6tfcn")
+region = Rect2(224, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3nrmd"]
+atlas = ExtResource("1_6tfcn")
+region = Rect2(256, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d1mrs"]
+atlas = ExtResource("1_6tfcn")
+region = Rect2(288, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3twpc"]
+atlas = ExtResource("1_6tfcn")
+region = Rect2(320, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6kqrt"]
+atlas = ExtResource("1_6tfcn")
+region = Rect2(352, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4jmrn"]
+atlas = ExtResource("1_6tfcn")
+region = Rect2(384, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_abg3p"]
+atlas = ExtResource("1_6tfcn")
+region = Rect2(416, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aa7p3"]
+atlas = ExtResource("1_6tfcn")
+region = Rect2(448, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aw5kl"]
+atlas = ExtResource("1_6tfcn")
+region = Rect2(480, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_15ro5"]
+atlas = ExtResource("1_6tfcn")
+region = Rect2(512, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_cutd7"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hqb8n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_git35")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6tmfe")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pmfrh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kbvjc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_piolc")
+}],
+"loop": false,
+"name": &"collected",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gytug")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_njcht")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ll3ss")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qtlgt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xo2l8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1o8j8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wwwwv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i4llp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3nrmd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d1mrs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3twpc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6kqrt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4jmrn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_abg3p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aa7p3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aw5kl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_15ro5")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 20.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_64v6v"]
+radius = 6.0
+
+[node name="Apple" type="Node2D" node_paths=PackedStringArray("animated_sprite_2d")]
+script = ExtResource("2_ryynr")
+animated_sprite_2d = NodePath("AnimatedSprite2D")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_cutd7")
+animation = &"collected"
+autoplay = "idle"
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(0, -1)
+shape = SubResource("CircleShape2D_64v6v")
+
+[connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]
+[connection signal="animation_finished" from="AnimatedSprite2D" to="AnimatedSprite2D" method="_on_animation_finished"]
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Area2D" to="AnimatedSprite2D" method="_on_area_2d_body_entered"]
